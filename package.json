@@ -1,0 +1,23 @@
+{
+  "name": "cberpj",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "dotenv": "^18.0.3"
+  },
+  
+  "scripts": {
+    "test": "cucumber-js --require C:/Cberpj/support/*.js --require C:/Cberpj/steps/login.step.js  --require ./utils/data.json --format json:report.json"
+  }
+
+}

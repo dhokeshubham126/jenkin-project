@@ -1,0 +1,92 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;login-into--portal",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "login into  portal",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 989960700
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2262452000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "open url",
+            "match": {
+              "location": "steps\\login.step.js:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1080785899
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "fill username and password",
+            "match": {
+              "location": "steps\\login.step.js:17"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 49968199
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "steps\\login.step.js:23"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 175000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "verify user is able to login successfully",
+            "match": {
+              "location": "steps\\login.step.js:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 251103000
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "login functionality",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
