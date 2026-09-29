@@ -47,7 +47,7 @@ import {
 import{BrowserManager} from '../utils/BrowserPage.js';
 import { TestContext } from './context.js';
 
-setDefaultTimeout(60 * 1000);
+
 
 Before(async function () {
     
